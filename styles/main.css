@@ -6,9 +6,70 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Navbar Styles */
+/* Special font -- font-family: 'Sedgwick Ave', cursive; */
+
+/* Logo and Navbar Styles */
+.top-menu {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.initials {
+    display: inline-block;
+    font-size: 45px;
+    margin: 0;
+}
+
+.initials a {
+    border: 7px solid black;
+    padding: 5px;
+}
+
+.initials a:hover {
+    color: #355070;
+    border: 7px solid #355070;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.nav-links {
+    margin: 0 50px;
+    font-size: 20px;
+}
+
+.initials a, .nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid black;
+}
+
+.about-link a:hover {
+    color: #6d597a;
+    border-bottom: 2px solid #6d597a;
+}
+
+.projects-link a:hover {
+    color: #b56576;
+    border-bottom: 2px solid #b56576;
+}
+
+.resources-link a:hover {
+    color: #e56b6f;
+    border-bottom: 2px solid #e56b6f;
+}
 
 /* Opening Statement Styles */
 
