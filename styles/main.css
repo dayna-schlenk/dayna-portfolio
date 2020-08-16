@@ -9,6 +9,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 50px;
+    text-align: center;
+    border-top: 2px solid rgba(229, 107, 111, 0.2);
+    padding-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
 /* Logo and Navbar Styles */
 .top-menu {
     display: flex;
@@ -99,6 +109,39 @@ nav ul {
 }
 
 /* What I can do Styles */
+.can-do {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.icon-container, .blurb {
+    width: 500px;
+}
+
+.blurb {
+    padding: 0 40px;
+}
+
+.blurb h3 {
+    font-size: 35px;
+}
+
+.blurb p {
+    font-size: 18px;
+}
+
+.pen, .laptop {
+    font-size: 90px;
+    color: #355070;
+}
 
 /* Work Together Styles */
 
