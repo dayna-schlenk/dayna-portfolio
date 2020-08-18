@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 h2 {
@@ -15,9 +16,9 @@ h2 {
     text-align: center;
     border-top: 2px solid rgba(229, 107, 111, 0.2);
     padding-top: 50px;
-    margin-top: 70px;
-    margin-bottom: 80px;
+    margin: 70px 0 80px 0;
 }
+
 
 /* Logo and Navbar Styles */
 .top-menu {
@@ -78,6 +79,7 @@ nav ul {
     border-bottom: 2px solid #e56b6f;
 }
 
+
 /* Opening Statement Styles */
 .greeting-line {
     font-size: 40px;
@@ -95,6 +97,7 @@ nav ul {
     color: #b56576;
 }
 
+
 /* Opening Image Styles */
 .img-container {
     width: 700px;
@@ -108,7 +111,12 @@ nav ul {
     border-bottom: 5px solid #6d597a;
 }
 
+
 /* What I can do Styles */
+#can-do-heading {
+    margin-bottom: 65px;
+}
+
 .can-do {
     width: 1000px;
     margin: 0 auto;
@@ -134,16 +142,13 @@ nav ul {
     font-size: 35px;
 }
 
-.blurb p {
-    font-size: 18px;
-}
-
 .pen, .laptop {
     font-size: 90px;
     color: #355070;
     border: 7px solid #eaac8b;
     padding: 15px;
 }
+
 
 /* Work Together Styles */
 .center {
@@ -184,6 +189,7 @@ button a:hover {
     width: 150px;
 }
 
+
 /* Footer Styles */
 .socials {
     height: 100px;
@@ -205,5 +211,4 @@ button a:hover {
 
 .copyright {
     text-align: center;
-    font-size: 18px;
 }

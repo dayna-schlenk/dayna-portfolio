@@ -24,7 +24,7 @@
     <body>
 
         <!-- Logo and Navbar -->
-        <div class="top-menu">
+        <header class="top-menu">
             <h1 class="initials"><a href="index.html">DS</a></h1>
             <nav>
                 <ul>
@@ -33,43 +33,53 @@
                     <li class="nav-links resources-link"><a href="#">Resources</a></li>
                 </ul>
             </nav>
-        </div>
+        </header>
 
-        <!-- Opening Statement & Image -->
-        <p class="greeting-line"><span class="intro">Hi, I'm Dayna.</span><br>I'm a self-taught <span class="job-title">Front End Developer</span> based in Illinois.</p>
-        <div class="img-container">
-            <img src="images/main-banner.jpg" alt="Dayna on the computer">
-        </div>        
-
-        <!-- What I can do -->
-        <h2>What I can do:</h2>
-        <section class="can-do">
-            <div class="flex-container">
-                <div class="icon-container">
-                    <i class="fas fa-pen-alt pen"></i>
+        <main>
+            <!-- Opening Statement & Image -->
+            <section class="greeting">
+                <p class="greeting-line"><span class="intro">Hi, I'm Dayna.</span><br>I'm a self-taught <span
+                        class="job-title">Front
+                        End Developer</span> based in Illinois.</p>
+                <div class="img-container">
+                    <img src="images/main-banner.jpg" alt="Dayna on the computer">
                 </div>
-                <div class="blurb">
-                    <h3>Design what you want.</h3>
-                    <p>Whether you need a website for yourself or for your business, I would set up an initial discovery call with you to hear your ideas and brainstorm how we can make those ambitions come to life.</p>
+            </section>
+            
+            <!-- What I can do -->
+            <h2 id="can-do-heading">What I can do:</h2>
+            <section class="can-do">
+                <div class="flex-container">
+                    <div class="icon-container">
+                        <i class="fas fa-pen-alt pen"></i>
+                    </div>
+                    <div class="blurb">
+                        <h3>Design what you want.</h3>
+                        <p>Whether you need a website for yourself or for your business, I would set up an initial discovery call
+                            with you to hear your ideas and brainstorm how we can make those ambitions come to life.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="flex-container">
-                <div class="blurb">
-                    <h3>Develop what you need.</h3>
-                    <p>I immerse myself in the tech space and ensure that I am up-to-date on industry trends and requirements. I place importance on code that is clean, readable, valid, and easy to maintain.</p>
+                <div class="flex-container">
+                    <div class="blurb">
+                        <h3>Develop what you need.</h3>
+                        <p>I immerse myself in the tech space and ensure that I am up-to-date on industry trends and requirements. I
+                            place importance on code that is clean, readable, valid, and easy to maintain.</p>
+                    </div>
+                    <div class="icon-container">
+                        <i class="fas fa-laptop-code laptop"></i>
+                    </div>
                 </div>
-                <div class="icon-container">
-                    <i class="fas fa-laptop-code laptop"></i>
+            </section>
+            
+            <!-- Want to work together? -->
+            <section class="work-together">
+                <h2>Want to work together?</h2>
+                <div class="center">
+                    <button type="button"><a href="mailto:dayna.schlenker@gmail.com">Email Me</a></button>
+                    <img class="paper-plane" src="images/outline-paper-plane.gif" alt="Paper plane gif">
                 </div>
-            </div>
-        </section>
-
-        <!-- Want to work together? -->
-        <h2 id="button-heading">Want to work together?</h2>
-        <div class="center">
-            <button type="button"><a href="mailto:dayna.schlenker@gmail.com">Email Me</a></button>
-            <img class="paper-plane" src="images/outline-paper-plane.gif" alt="Paper plane gif">
-        </div>
+            </section>
+        </main>
 
         <!-- Footer -->
         <footer>
