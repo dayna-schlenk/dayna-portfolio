@@ -185,3 +185,25 @@ button a:hover {
 }
 
 /* Footer Styles */
+.socials {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.social-icons {
+    font-size: 50px;
+    color: #000000;
+    margin: 0 30px;
+}
+
+.social-icons:hover {
+    color: #6d597a; 
+}
+
+.copyright {
+    text-align: center;
+    font-size: 18px;
+}
