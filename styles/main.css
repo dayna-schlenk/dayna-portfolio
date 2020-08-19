@@ -42,6 +42,7 @@ h2 {
 .initials a:hover {
     color: #355070;
     border: 7px solid #355070;
+    transition-duration: 0.4s;
 }
 
 nav ul {
@@ -84,13 +85,16 @@ nav ul {
 .greeting-line {
     font-size: 40px;
     text-align: center;
-    margin: 40px 0 30px 0;
+    margin: 25px 0 30px 0;
     line-height: 2;
 }
 
-.intro {
+#intro {
     font-family: 'Sedgwick Ave', cursive;
     font-size: 60px;
+    padding-top: 0;
+    border: none;
+    margin: 40px 0 10px 0;
 }
 
 .job-title {
@@ -159,7 +163,7 @@ nav ul {
     height: 200px;
 }
 
-button {
+.button {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
     background-color: white;
@@ -167,7 +171,7 @@ button {
     padding: 5px;
 }
 
-button a {
+.button {
     text-decoration: none;
     color: #e56b6f;
     font-size: 20px;
@@ -175,14 +179,10 @@ button a {
     padding: 10px;
 }
 
-button:hover {
+.button:hover {
     background-color: #e56b6f;
     transition-duration: 0.4s;
-}
-
-button a:hover {
     color: white;
-    transition-duration: 0.4s;
 }
 
 .paper-plane {
