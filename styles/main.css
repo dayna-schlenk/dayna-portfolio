@@ -89,7 +89,7 @@ nav ul {
     line-height: 2;
 }
 
-#intro {
+.intro-header {
     font-family: 'Sedgwick Ave', cursive;
     font-size: 60px;
     padding-top: 0;
@@ -216,3 +216,22 @@ nav ul {
 
 /*************** ABOUT PAGE STYLES ***************/
 
+/* About me intro styles */
+.about-flex {
+    margin-top: 60px;
+}
+
+.intro-image, .intro-blurb {
+    width: 500px;
+}
+
+.intro-image img {
+    object-fit: cover;
+    width: 75%;
+    border-top: 5px solid #6d597a;
+    border-bottom: 5px solid #6d597a;
+}
+
+.about-header {
+    margin: 0;
+}
