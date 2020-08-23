@@ -235,3 +235,7 @@ nav ul {
 .about-header {
     margin: 0;
 }
+
+.intro-blurb p {
+    line-height: 1.5;
+}
