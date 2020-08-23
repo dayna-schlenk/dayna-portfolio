@@ -232,9 +232,13 @@ nav ul {
 
 .intro-image img {
     object-fit: cover;
-    width: 75%;
+    width: 90%;
     border-top: 5px solid #6d597a;
-    border-bottom: 5px solid #6d597a;
+    border-bottom: 5px solid #6d597a;  
+}
+
+.intro-blurb {
+    padding-right: 25px;
 }
 
 .about-header {
@@ -246,3 +250,11 @@ nav ul {
 }
 
 /* About Image Grid Styles */
+.image-grid {
+    width: 70%;
+    margin-top: 100px;
+}
+
+.image-grid img {
+    padding: 10px;
+}
