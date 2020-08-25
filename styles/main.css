@@ -262,6 +262,40 @@ nav ul {
 
 /*************** PROJECTS PAGE STYLES ***************/
 
-/* Title Styles */
+/* Title and Heading Styles */
+.project-page-heading {
+    margin-bottom: 80px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+h4 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h4 a:hover {
+    color: #e56b6f;
+    transition-duration: 0.3s; 
+}
 
 /* Projects Styles */
+.project-screenshots {
+    width: 600px;
+    border-top: 5px solid #355070;
+    margin-bottom: 150px;
+}
+
+.project-screenshots img {
+    object-fit: cover;
+    width: 100%;
+    border-bottom: 5px solid #355070;
+    margin-bottom: 25px;
+}
+
+.skills {
+    color: #6d597a;
+    font-weight: bold;
+}
