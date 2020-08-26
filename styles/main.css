@@ -278,7 +278,8 @@ h4 a {
 
 h4 a:hover {
     color: #e56b6f;
-    transition-duration: 0.3s; 
+    transition-duration: 0.4s;
+    text-decoration: none; 
 }
 
 /* Projects Styles */
