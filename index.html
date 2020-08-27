@@ -28,71 +28,72 @@
     <body>
 
         <!-- Logo and Navbar -->
-        <header class="top-menu">
-            <h1 class="initials"><a href="index.html">DS</a></h1>
-            <nav>
-                <ul>
-                    <li class="nav-links about-link"><a href="about/index.html">About</a></li>
-                    <li class="nav-links projects-link"><a href="projects/index.html">Projects</a></li>
-                </ul>
-            </nav>
+        <header>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Business</a>
+                </li>
+            </ul>
         </header>
 
         <main>
-            <!-- Opening Statement & Image -->
-            <section class="greeting">
-                <h2 class="intro-header">Hi, I'm Dayna</h2>
-                <p class="greeting-line">I'm a <span class="job-title">Front
-                    End Developer</span> based in Illinois.</p>
-                <div class="img-container">
-                    <img src="images/main-banner.jpg" alt="Dayna on the computer">
+            <!-- Greeting -->
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Hi, I'm Dayna.</h1>
+                    <p class="lead">Welcome to my web developer portfolio!</p>
                 </div>
-            </section>
+            </div>
             
-            <!-- What I can do -->
-            <h2 id="can-do-heading">What I can do:</h2>
-            <section class="can-do">
-                <div class="flex-container">
-                    <div class="icon-container">
-                        <i class="fas fa-pen-alt pen"></i>
-                    </div>
-                    <div class="blurb">
-                        <h3>Design what you want.</h3>
-                        <p>Whether you need a website for yourself or for your business, I would set up an initial discovery call to
-                            consult with you on your ideas, provide feedback, and discuss how we can make your ambitions come to life.</p>
-                    </div>
+            <!-- Touchpoints -->
+            <div class="media">
+                <i class="fas fa-laptop-code mr-3"></i>
+                <div class="media-body">
+                    <h5 class="mt-0">Who I am</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+                    vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                    lacinia congue felis in faucibus.</p>
+                    <button type="button" class="btn btn-outline-secondary">Learn More About Me</button>
                 </div>
-                <div class="flex-container">
-                    <div class="blurb">
-                        <h3>Develop what you need.</h3>
-                        <p>I focus on tech, so you don't have to. I ensure that my skills are up-to-date on industry trends and requirements. I
-                            place importance on code that is clean, readable, valid, and easy to maintain.</p>
-                    </div>
-                    <div class="icon-container">
-                        <i class="fas fa-laptop-code laptop"></i>
-                    </div>
+            </div>
+            <div class="media">
+                <i class="fas fa-laptop-code mr-3"></i>
+                <div class="media-body">
+                    <h5 class="mt-0">What I do</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+                    vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                    lacinia congue felis in faucibus.</p>
+                    <button type="button" class="btn btn-outline-secondary">View My Projects</button>
                 </div>
-            </section>
-            
-            <!-- Want to work together? -->
-            <section class="work-together">
-                <h2>Want to work together?</h2>
-                <div class="center">
-                    <a href="mailto:dayna.schlenker@gmail.com" class="button">Email Me</a>
-                    <img class="paper-plane" src="images/outline-paper-plane.gif" alt="Paper plane gif">
+            </div>
+            <div class="media">
+                <i class="fas fa-laptop-code mr-3"></i>
+                <div class="media-body">
+                    <h5 class="mt-0">Why you should work with me</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+                    vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                    lacinia congue felis in faucibus.</p>
+                    <button type="button" class="btn btn-outline-secondary">Learn More About My Business</button>
                 </div>
-            </section>
+            </div>
         </main>
 
         <!-- Footer -->
-        <footer>
-            <div class="socials">
-                <a href="https://github.com/dayna-schlenk" target="_blank"><i class="fab fa-github social-icons"></i></a>
-                <a href="https://www.linkedin.com/in/dayna-schlenker-4b331212b/" target="_blank"><i class="fab fa-linkedin-in social-icons"></i></a>
-                <a href="https://codepen.io/dschlenk" target="_blank"><i class="fab fa-codepen social-icons"></i></a>
-            </div>
-            <p class="copyright">&copy; Dayna Schlenker 2020</p>
-        </footer>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</button>
+            <button type="button" class="btn btn-secondary"><i class="fab fa-linkedin-in"></i> LinkedIn</button>
+            <button type="button" class="btn btn-secondary"><i class="fab fa-codepen"></i> Codepen</button>
+        </div>
+        <p>&copy; Dayna Schlenker 2020</p>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
