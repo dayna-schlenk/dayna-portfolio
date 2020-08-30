@@ -31,79 +31,73 @@
 <body>
 
     <!-- Logo and Navbar -->
-    <header class="top-menu">
-        <h1 class="initials"><a href="../index.html">DS</a></h1>
-        <nav>
-            <ul>
-                <li class="nav-links about-link"><a href="index.html">About</a></li>
-                <li class="nav-links projects-link"><a href="../projects/index.html">Projects</a></li>
-            </ul>
-        </nav>
+    <header>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../projects/index.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+        </ul>
     </header>
 
     <main>
-        <!-- About me intro -->
-        <section class="about-intro">
-            <div class="flex-container about-flex">
-                <div class="intro-image">
-                    <img src="../images/my-portrait.jpg" alt="Dayna's portrait">
+        <div class="container">
+            <div class="d-flex">
+                <div class="about-text">
+                    <h1>About Me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti modi voluptatibus doloremque explicabo
+                        numquam nostrum iusto sequi perspiciatis maxime corrupti, quaerat quia asperiores aspernatur ducimus odit animi
+                        doloribus hic. Saepe alias eum nemo adipisci quibusdam! Provident vel magnam asperiores.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quasi a reiciendis ab deleniti consequuntur blanditiis itaque, quidem, exercitationem alias provident quos deserunt at harum ex saepe quo dolorem nulla dolores nostrum error minima dignissimos? Nisi eius laborum tenetur soluta.</p>
                 </div>
-                <div class="intro-blurb">
-                    <h2 class="intro-header about-header">About Me</h2>
-                    <p>I’ve always loved creating, solving problems, and working on the computer. In the year after graduating college, I
-                    decided to make the change from youth services to web development. My self-taught path has not been easy or linear, but
-                    my passion for this work grows stronger every day. When I’m not building websites, I like to spend time outdoors,
-                    watch true crime documentaries, and have one-way conversations with my dog.</p>
-                </div>
+                <img src="../images/my-portrait.jpg" class="img-fluid img-thumbnail main-about-img" alt="Dayna's portrait">
             </div>
-        </section>
 
-        <!-- Image grid -->
-        <div class="container image-grid">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="../images/big-bear-lake-ca.jpg" class="img-fluid" alt="Big bear lake">
+            <!-- Image Grid -->
+            <div class="image-grid mx-auto w-75">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="../images/big-bear-lake-ca.jpg" class="img-fluid img-thumbnail" alt="Big bear lake">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../images/bike.jpg" class="img-fluid img-thumbnail" alt="Bike on trail">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../images/dayna-tim.jpg" class="img-fluid img-thumbnail" alt="Dayna and Tim">
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <img src="../images/bike.jpg" class="img-fluid" alt="Bike on trail">
-                </div>
-                <div class="col-md-4">
-                    <img src="../images/dayna-tim.jpg" class="img-fluid" alt="Dayna and Tim">
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="../images/lighthouse.jpg" class="img-fluid" alt="lighthouse">
-                </div>
-                <div class="col-md-4">
-                    <img src="../images/dayna-pico.png" class="img-fluid" alt="Dayna and her dog">
-                </div>
-                <div class="col-md-4">
-                    <img src="../images/st-joseph.jpg" class="img-fluid" alt="St. Joseph, MI">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="../images/lighthouse.jpg" class="img-fluid img-thumbnail" alt="lighthouse">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../images/dayna-pico.png" class="img-fluid img-thumbnail" alt="Dayna and her dog">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../images/st-joseph.jpg" class="img-fluid img-thumbnail" alt="St. Joseph, MI">
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!-- Want to work together? -->
-        <section class="work-together">
-            <h2>Want to work together?</h2>
-            <div class="center">
-                <a href="mailto:dayna.schlenker@gmail.com" class="button">Email Me</a>
-                <img class="paper-plane" src="../images/outline-paper-plane.gif" alt="Paper plane gif">
-            </div>
-        </section>
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="socials">
-            <a href="https://github.com/dayna-schlenk" target="_blank"><i class="fab fa-github social-icons"></i></a>
-            <a href="https://www.linkedin.com/in/dayna-schlenker-4b331212b/" target="_blank"><i
-                    class="fab fa-linkedin-in social-icons"></i></a>
-            <a href="https://codepen.io/dschlenk" target="_blank"><i class="fab fa-codepen social-icons"></i></a>
+    <div class="container text-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</button>
+            <button type="button" class="btn btn-secondary"><i class="fab fa-linkedin-in"></i> LinkedIn</button>
+            <button type="button" class="btn btn-secondary"><i class="fab fa-codepen"></i> Codepen</button>
         </div>
-        <p class="copyright">&copy; Dayna Schlenker 2020</p>
-    </footer>
+        <p>&copy; Dayna Schlenker 2020</p>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
