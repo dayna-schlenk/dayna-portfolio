@@ -29,81 +29,113 @@
 
 </head>
 <body>
-
     <!-- Logo and Navbar -->
-    <header class="top-menu">
-        <h1 class="initials"><a href="../index.html">DS</a></h1>
-        <nav>
-            <ul>
-                <li class="nav-links about-link"><a href="../about/index.html">About</a></li>
-                <li class="nav-links projects-link"><a href="index.html">Projects</a></li>
-            </ul>
-        </nav>
+    <header>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../about/index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+        </ul>
     </header>
-
+    
     <main>
-        <!-- Projects title -->
-        <section class="greeting project-page-heading">
-            <h2 class="intro-header">Recent Projects</h2>
-        </section>
+        <div class="container">
+            <h1 class="text-center">Recent Projects</h1>
 
-        <!-- Projects list -->
-        <div class="img-container project-screenshots">
-            <img src="../images/jubilee-updated-screenshot.jpg" alt="Jubilee Austen website">
-            <div class="project-description">
-                <h4><a href="https://dayna-schlenk.github.io/jubilee_austen_portfolio/" target="_blank">Jubilee Austen Portfolio</a></h4>
-                <p class="skills">HTML &sol; CSS &sol; Adobe Photoshop &sol; Design Comp</p>
+            <!-- Projects Grid -->
+            <div class="project-grid">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <div class="card mx-auto" style="width: 22rem;">
+                            <img src="../images/rogue-roastery-screenshot.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mx-auto" style="width: 22rem;">
+                            <img src="../images/jubilee-updated-screenshot.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mx-auto" style="width: 22rem;">
+                            <img src="../images/recipe-card-screenshot.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <div class="card mx-auto" style="width: 22rem;">
+                            <img src="../images/vision-board-screenshot.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mx-auto" style="width: 22rem;">
+                            <img src="../images/museum-of-candy-screenshot.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mx-auto" style="width: 22rem;">
+                            <img src="../images/tin-dog-screenshot.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="img-container project-screenshots">
-            <img src="../images/rogue-pickings-screenshot.jpg" alt="Rogue Pickings website">
-            <div class="project-description">
-                <h4><a href="https://dayna-schlenk.github.io/101_rogue_pickings/" target="_blank">Rogue Pickings</a></h4>
-                <p class="skills">HTML &sol; CSS &sol; Adobe Photoshop &sol; Design Comp</p>
-            </div>
-        </div>
-        <div class="img-container project-screenshots">
-            <img src="../images/rogue-roastery-screenshot.png" alt="Rogue Roastery website">
-            <div class="project-description">
-                <h4><a href="https://dayna-schlenk.github.io/rogue-roastery/index.html" target="_blank">Rogue Roastery</a></h4>
-                <p class="skills">HTML &sol; CSS Flexbox</p>
-            </div>
-        </div>
-        <div class="img-container project-screenshots">
-            <img src="../images/recipe-card-screenshot.png" alt="Recipe Cards website">
-            <div class="project-description">
-                <h4><a href="https://dayna-schlenk.github.io/101_recipe_cards/" target="_blank">Recipe Cards</a></h4>
-                <p class="skills">HTML &sol; CSS &sol; Design Comp</p>
-            </div>
-        </div>
-        <div class="img-container project-screenshots">
-            <img src="../images/vision-board-screenshot.png" alt="Vision Board website">
-            <div class="project-description">
-                <h4><a href="https://dayna-schlenk.github.io/101_vision_board/" target="_blank">Vision Board</a></h4>
-                <p class="skills">HTML &sol; CSS &sol; Design Comp</p>
-            </div>
-        </div>
-
-        <!-- Want to work together? -->
-        <section class="work-together">
-            <h2>Want to work together?</h2>
-            <div class="center">
-                <a href="mailto:dayna.schlenker@gmail.com" class="button">Email Me</a>
-                <img class="paper-plane" src="../images/outline-paper-plane.gif" alt="Paper plane gif">
-            </div>
-        </section>
     </main>
-
+    
     <!-- Footer -->
-    <footer>
-        <div class="socials">
-            <a href="https://github.com/dayna-schlenk" target="_blank"><i class="fab fa-github social-icons"></i></a>
-            <a href="https://www.linkedin.com/in/dayna-schlenker-4b331212b/" target="_blank"><i
-                    class="fab fa-linkedin-in social-icons"></i></a>
-            <a href="https://codepen.io/dschlenk" target="_blank"><i class="fab fa-codepen social-icons"></i></a>
+    <div class="container text-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</button>
+            <button type="button" class="btn btn-secondary"><i class="fab fa-linkedin-in"></i> LinkedIn</button>
+            <button type="button" class="btn btn-secondary"><i class="fab fa-codepen"></i> Codepen</button>
         </div>
-        <p class="copyright">&copy; Dayna Schlenker 2020</p>
-    </footer>
+        <p>&copy; Dayna Schlenker 2020</p>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
