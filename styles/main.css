@@ -1,3 +1,40 @@
+/* General Styles */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #f4f1de;   
+}
+
+.btn {
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+header {
+    background-color: #f4f1de;
+}
+
+/* Home Styles */
+.icons {
+    font-size: 40px;
+}
+
+/* About Styles */
 .main-about-img {
     width: 30%;
 }
+
+/* Projects Styles */
+
+/* Services Styles */
