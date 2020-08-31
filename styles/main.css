@@ -82,6 +82,10 @@ header {
     padding: 10px;
 }
 
+.build-sites-text {
+    border-right: 2px solid rgba(64, 67, 78, 0.2);
+}
+
 /* About Styles */
 .about-jumbotron {
     background-image: url(../images/about-me-jumbo.jpg);
@@ -108,6 +112,7 @@ header {
 
 .services-text {
     width: 50%;
+    border-right: 2px solid rgba(64, 67, 78, 0.2);
 }
 
 .contact {
