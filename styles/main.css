@@ -115,6 +115,10 @@ header {
 }
 
 /* Projects Styles */
+.projects-heading {
+    background-color: rgba(128, 134, 158, 0.3);
+    padding: 30px;
+}
 
 /* Services Styles */
 .services-jumbotron {
