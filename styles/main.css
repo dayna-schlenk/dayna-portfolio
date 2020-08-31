@@ -37,6 +37,11 @@ h2 {
     margin-bottom: 30px;
 }
 
+h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
 header {
     background-color: #fffffa;
 }
@@ -85,6 +90,19 @@ header {
 /* Projects Styles */
 
 /* Services Styles */
+.services-jumbotron {
+    background-image: url(../images/services-jumbo-image.jpg);
+    background-size: cover;
+    background-position: 50% 40%;
+}
+
+.services-text {
+    width: 50%;
+}
+
+.contact {
+    width: 50%;
+}
 
 /* Footer Styles */
 footer {
