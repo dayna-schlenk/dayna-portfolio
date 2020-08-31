@@ -1,8 +1,4 @@
 /* General Styles */
-html, body {
-    height: 100%;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -97,8 +93,25 @@ header {
     color: #080705;
 }
 
-.main-about-img {
-    width: 30%;
+.about-text {
+    margin-bottom: 35px;
+}
+
+.image-grid img {
+    padding: 7px;
+    margin: 10px;
+}
+
+.connect-piece {
+    margin-top: 40px;
+}
+
+.airplane-gif {
+    width: 20%;
+}
+
+.about-footer {
+    margin-top: 20px;
 }
 
 /* Projects Styles */
