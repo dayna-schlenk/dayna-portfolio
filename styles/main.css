@@ -83,6 +83,16 @@ header {
 }
 
 /* About Styles */
+.about-jumbotron {
+    background-image: url(../images/about-me-jumbo.jpg);
+    background-size: cover;
+    background-position: 40% 15%;
+}
+
+.about-jumbo-text {
+    color: #080705;
+}
+
 .main-about-img {
     width: 30%;
 }
