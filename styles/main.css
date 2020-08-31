@@ -6,28 +6,75 @@ html, body {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    background-color: #f4f1de;   
+    background-color: #fffffa;
+    color: #080705;   
 }
 
 .btn {
     font-size: 20px;
+    background-color: #702632; 
+}
+
+.btn:hover {
+    background-color: #912f40;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fffffa;
+}
+
+.btn a:hover {
+    color: #080705;
 }
 
 h1, h2, h3 {
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Averia Serif Libre', cursive;
 }
 
 h2 {
     font-size: 40px;
+    margin-bottom: 30px;
 }
 
 header {
-    background-color: #f4f1de;
+    background-color: #fffffa;
+}
+
+/* Nav Styles */
+.nav-link {
+    color: #080705;
+}
+
+.nav-link:hover {
+    color: #702632;
 }
 
 /* Home Styles */
+.jumbotron {
+    background-image: url(../images/jumbo-image-two.jpg);
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.jumbo-heading {
+    color: #fffffa;
+    background-color: rgba(128, 134, 158, 0.3);
+}
+
+.lead-text {
+    font-size: 30px;
+}
+
 .icons {
     font-size: 40px;
+    color: #40434e;
+}
+
+.highlight {
+    border: 2px solid rgba(64, 67, 78, 0.2);
+    border-collapse: collapse;
+    padding: 10px;
 }
 
 /* About Styles */
@@ -38,3 +85,8 @@ header {
 /* Projects Styles */
 
 /* Services Styles */
+
+/* Footer Styles */
+footer {
+    margin-top: 60px;
+}
