@@ -53,7 +53,7 @@ header {
 
 /* Home Styles */
 .jumbotron {
-    background-image: url(../images/jumbo-image-two.jpg);
+    background-image: url(../images/jumbo-image-two.gif);
     background-size: cover;
     background-position: 50% 30%;
 }
