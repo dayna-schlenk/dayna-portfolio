@@ -1,11 +1,26 @@
 /* General styles */
+body {
+    padding-top: 70px;
+}
 
 /* Hero styles */
 
 /* About me styles */
+.about-me {
+    background-color: darkcyan;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
 
 /* Skillset styles */
 
 /* Recent work styles */
+.recent-work {
+    background-color: lightsalmon;
+}
 
 /* Footer styles */
