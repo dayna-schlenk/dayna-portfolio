@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="styles/normalize.css">
 
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&family=Roboto&display=swap"
+        <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Josefin+Sans:wght@400;700&display=swap"
             rel="stylesheet">
 
         <!-- Font Awesome -->
@@ -29,7 +29,7 @@
     <body>
         <!-- Nav Menu -->
         <header>
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#home">Dayna</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -57,11 +57,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <img src="images/dayna-portrait.jpg" id="home" class="img-fluid rounded-circle mx-auto d-block" alt="Dayna's portrait">
+                            <img src="images/dayna-portrait.jpg" id="home" class="img-fluid rounded-circle mx-auto d-block hero-image" alt="Dayna's portrait">
                         </div>
                         <div class="col-12 text-center">
-                            <h1>Hi, I'm Dayna</h1>
-                            <p>Web Developer</p>
+                            <h1 class="hero-heading">Hi, I'm Dayna</h1>
+                            <p class="job-title">Web Developer</p>
                         </div>
                     </div>
                 </div>
@@ -97,27 +97,31 @@
                     </div>
                     <!-- Icons begin -->
                     <div class="row text-center">
-                        <div class="col-6">
+                        <div class="skill-icons col-4">
                             <i class="fab fa-html5"></i>
+                            <p class="skill-description">HTML5</p>
                         </div>
-                        <div class="col-6">
+                        <div class="skill-icons col-4">
                             <i class="fab fa-css3-alt"></i>
+                            <p class="skill-description">CSS3</p>
                         </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-6">
+                        <div class="skill-icons col-4">
                             <i class="fab fa-sass"></i>
-                        </div>
-                        <div class="col-6">
-                            <i class="fab fa-bootstrap"></i>
+                            <p class="skill-description">Sass</p>
                         </div>
                     </div>
                     <div class="row text-center">
-                        <div class="col-6">
-                            <i class="fab fa-git-alt"></i>
+                        <div class="skill-icons col-4">
+                            <i class="fab fa-bootstrap"></i>
+                            <p class="skill-description">Bootstrap</p>
                         </div>
-                        <div class="col-6">
+                        <div class="skill-icons col-4">
+                            <i class="fab fa-git-alt"></i>
+                            <p class="skill-description">Git & GitHub</p>
+                        </div>
+                        <div class="skill-icons col-4">
                             <i class="fas fa-mobile-alt"></i>
+                            <p class="skill-description">Responsive Design</p>
                         </div>
                     </div>
                     <!-- Icons end -->
@@ -217,16 +221,16 @@
         <footer>
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-12">
-                        <h3 id="contact">Contact</h3>
-                    </div>
-                    <div class="col-12">
+                    <div class="col-6">
                         <button type="button" class="btn btn-danger"><a href="mailto:dayna.schlenker@gmail.com"><i class="far fa-paper-plane"></i> Email Me</a></button>
                     </div>
-                    <div class="col-12">
+                    <div class="col-6">
                         <a href="https://www.linkedin.com/in/dayna-schlenker-4b331212b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://github.com/dayna-schlenk" target="_blank"><i class="fab fa-github"></i></a>
                         <a href="https://codepen.io/dschlenk" target="_blank"><i class="fab fa-codepen"></i></a>
+                    </div>
+                    <div class="col-12 copyright">
+                        <p>&copy; Dayna Schlenker 2020</p>
                     </div>
                 </div>
             </div>

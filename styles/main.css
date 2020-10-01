@@ -1,30 +1,88 @@
 /* General styles */
 body {
     padding-top: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: 'Carter One', cursive;
+}
+
+
+/* Nav Styles */
+nav {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);  
+}
+
+.navbar-brand {
+    font-size: 1.375em;
+}
+
+.nav-item a {
+    font-size: 1.125em;
 }
 
 
 /* Hero styles */
+.hero-image {
+    width: 50%;
+}
+
+.hero-heading {
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+}
+
+.job-title {
+    font-size: 1.5em;
+}
 
 
 /* About me styles */
 .about-me {
-    background-color: darkcyan;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
 
 .about-list {
     list-style: none;
     padding: 0;
+    font-size: 1.125em;
 }
 
 
 /* Skillset styles */
+.skill-icons {
+    font-size: 3em;
+}
+
+.skill-description {
+    font-size: 1rem;
+}
 
 
 /* Recent work styles */
 .recent-work {
-    background-color: lightsalmon;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+.card-title {
+    font-weight: 700;
 }
 
 
 /* Footer styles */
+footer {
+    background-color: #606363;
+}
+
+button a {
+    font-weight: 700;
+}
+
+.copyright {
+    background-color: #393D3D;
+}
