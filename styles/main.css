@@ -97,11 +97,17 @@ nav {
 }
 
 .site-button:hover {
-    background-color: #5b5d6d;
+    /* background-color: #5b5d6d; */
+    animation: pulse;
+    animation-duration: 0.7s;
+    color: #fcf3ea;
 }
 
 .github-button:hover {
-    background-color: #5b5d6d;
+    /* background-color: #5b5d6d; */
+    animation: pulse;
+    animation-duration: 0.7s;
+    color: #fcf3ea;
 }
 
 
@@ -117,7 +123,9 @@ nav {
 }
 
 .footer-button:hover {
-    background-color: #897890;
+    /* background-color: #897890; */
+    animation: pulse;
+    animation-duration: 0.7s;
 }
 
 .social-icons {
@@ -130,4 +138,6 @@ nav {
 
 .social-icons a:hover {
     color: #5b5d6d;
+    animation: pulse;
+    animation-duration: 0.7s;
 }
