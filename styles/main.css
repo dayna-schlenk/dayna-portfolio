@@ -141,3 +141,35 @@ nav {
     animation: pulse;
     animation-duration: 0.7s;
 }
+
+
+/* Media Queries */
+
+/* Mobile Media Queries */
+@media (max-width: 340px) {
+    .skill-icons {
+        font-size: 2.5em;
+    }
+
+    .skill-description {
+        font-size: 0.813rem;
+    }
+    
+    .extra-small-screen a {
+        font-size: 0.625em;
+    }
+
+    .footer-button a {
+        font-size: 0.875em;
+    }
+
+    .social-icons {
+        font-size: 1.250em;
+    }
+}
+
+
+/* Tablet Media Queries */
+
+
+/* Desktop Media Queries */
