@@ -3,6 +3,7 @@ body {
     padding-top: 70px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
+    color: #333549;
 }
 
 h1, h2, h3 {
@@ -12,8 +13,7 @@ h1, h2, h3 {
 
 /* Nav Styles */
 nav {
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);  
+    background-color: #ac97b4;
 }
 
 .navbar-brand {
@@ -42,25 +42,42 @@ nav {
 
 /* About me styles */
 .about-me {
-    background-color: #FF3CAC;
-    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background-color: #e2e2e6;
+}
+
+.about-image {
+    border: 3px solid #333549;
+    width: 75%;
 }
 
 
 /* Skillset styles */
 .skill-icons {
     font-size: 3em;
+    color: #78697d;
 }
 
 .skill-description {
     font-size: 1rem;
+    color: #333549;
 }
 
 
 /* Recent work styles */
 .recent-work {
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background-color: #e2e2e6;
+}
+
+.card {
+    border: 3px solid #717285;
+}
+
+.card, .btn {
+    border-radius: 0;
+}
+
+.card img {
+    border-radius: 0;
 }
 
 .card-title {
@@ -69,22 +86,48 @@ nav {
 
 .site-button {
     margin-right: 0.500em;
+    background-color: #333549;
+    color: #fcf3ea;
 }
 
 .github-button {
     margin-left: 0.500em;
+    background-color: #333549;
+    color: #fcf3ea;
+}
+
+.site-button:hover {
+    background-color: #5b5d6d;
+}
+
+.github-button:hover {
+    background-color: #5b5d6d;
 }
 
 
 /* Footer styles */
-footer {
-    background-color: #606363;
+.footer-button {
+    background-color: #ac97b4;
 }
 
-button a {
+.footer-button a {
     font-weight: 700;
+    color: #333549;
+    text-decoration: none;
+}
+
+.footer-button:hover {
+    background-color: #897890;
 }
 
 .social-icons {
     font-size: 1.5em;
+}
+
+.social-icons a {
+    color: #333549;
+}
+
+.social-icons a:hover {
+    color: #5b5d6d;
 }
