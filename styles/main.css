@@ -118,9 +118,6 @@ footer {
 
 .footer-button {
     background-color: #ac97b4;
-}
-
-.footer-button a {
     font-weight: 700;
     color: #333549;
     text-decoration: none;
@@ -167,7 +164,7 @@ footer {
         font-size: 0.625em;
     }
 
-    .footer-button a {
+    .footer-button {
         font-size: 0.875em;
     }
 
@@ -211,7 +208,7 @@ footer {
         font-size: 1.063em;
     }
 
-    .footer-button a {
+    .footer-button {
         font-size: 1.5em;
     }
 
