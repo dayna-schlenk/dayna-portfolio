@@ -151,6 +151,10 @@ footer {
 
 /* Mobile Media Queries */
 @media (max-width: 340px) {
+    .hero-heading {
+        font-size: 2em;
+    }
+    
     .skill-icons {
         font-size: 2.5em;
     }
@@ -216,6 +220,17 @@ footer {
     }
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+    .about-heading {
+        margin-bottom: 1em;
+    }
+    
+    .skill-heading {
+        border-top: 2px solid #333549;
+        padding-top: 1em;
+    }
+}
+
 @media (min-width: 1000px) and (max-width: 1200px) {
     .navbar-brand {
         font-size: 1.875em;
@@ -249,11 +264,37 @@ footer {
 
 /* Desktop Media Queries */
 @media (min-width: 1200px) {
+    .hero-heading {
+        font-size: 4em;
+    }
+
+    .job-title {
+        font-size: 2em;
+    }
+
+    .sub-heading {
+        font-size: 2.5em;
+    }
+    
     .about-border {
         border-right: 2px solid #333549;
     }
+
+    .about-bio {
+        margin-left: 7em;
+        margin-right: 7em;
+        font-size: 1.250em;
+    }
     
     .about-image {
-        width: 40%;
+        width: 35%;
+    }
+
+    .skill-group {
+        padding-top: 1.75em;
+    }
+
+    .work-heading {
+        margin-top: 1em;
     }
 }
