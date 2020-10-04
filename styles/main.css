@@ -41,7 +41,7 @@ nav {
 
 
 /* About me styles */
-.about-me {
+.about-skills-background {
     background-color: #e2e2e6;
 }
 
@@ -54,7 +54,7 @@ nav {
 /* Skillset styles */
 .skill-icons {
     font-size: 3em;
-    color: #78697d;
+    color: #47495b;
 }
 
 .skill-description {
@@ -64,9 +64,9 @@ nav {
 
 
 /* Recent work styles */
-.recent-work {
+/* .recent-work {
     background-color: #e2e2e6;
-}
+} */
 
 .card {
     border: 3px solid #717285;
@@ -112,6 +112,10 @@ nav {
 
 
 /* Footer styles */
+footer {
+    background-color: #e2e2e6;
+}
+
 .footer-button {
     background-color: #ac97b4;
 }
@@ -244,3 +248,12 @@ nav {
 
 
 /* Desktop Media Queries */
+@media (min-width: 1200px) {
+    .about-border {
+        border-right: 2px solid #333549;
+    }
+    
+    .about-image {
+        width: 40%;
+    }
+}

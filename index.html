@@ -69,64 +69,71 @@
                 </div>
             </section>
 
-            <!-- About Me -->
-            <section class="about-me py-4 px-3">
-                <div class="container">
-                    <div class="row text-center align-items-center">
-                        <div class="col-12 col-md-6">
-                            <h2 class="sub-heading" id="about">About Me</h2>
-                            <p class="mt-3 about-bio">Welcome to my portfolio! I'm a self-taught web developer
-                                based in Illinois, as well as an avid dog enthusiast and
-                                coffee lover. &#9749;
-                            </p>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <img src="images/me-and-pico.jpg" class="img-fluid about-image p-2" alt="Dayna and her dog">
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <!-- Skillset -->
-            <section class="skillset py-4 px-3">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-12">
-                            <h2>Skillset</h2>
+            <!-- About Me and Skillset Sections -->
+            <div class="container-fluid about-skills-background">
+                <!-- Row begins -->
+                <div class="row text-center">
+                    <div class="col-xl-6 about-me py-4 px-3">
+                        <!-- About Me Section -->
+                        <div class="row align-items-center about-border">
+                            <div class="col-12">
+                                <h2 class="sub-heading" id="about">About Me</h2>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <p class="mt-3 about-bio">Welcome to my portfolio! I'm a self-taught web developer
+                                    based in Illinois, as well as an avid dog enthusiast and
+                                    coffee lover. &#9749;
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <img src="images/me-and-pico.jpg" class="img-fluid about-image p-2" alt="Dayna and her dog">
+                            </div>
                         </div>
                     </div>
-                    <!-- Icons begin -->
-                    <div class="row text-center mt-4">
-                        <div class="skill-icons col-4">
-                            <i class="fab fa-html5"></i>
-                            <p class="skill-description">HTML5</p>
+
+                    <div class="col-xl-6 skillset py-4 px-3">
+                        <!-- Skillset Section -->
+                        <div class="row">
+                            <div class="col-12">
+                                <h2>Skillset</h2>
+                            </div>
                         </div>
-                        <div class="skill-icons col-4">
-                            <i class="fab fa-css3-alt"></i>
-                            <p class="skill-description">CSS3</p>
+                        <!-- Icons begin -->
+                        <div class="row mt-4">
+                            <div class="skill-icons col-4">
+                                <i class="fab fa-html5"></i>
+                                <p class="skill-description">HTML5</p>
+                            </div>
+                            <div class="skill-icons col-4">
+                                <i class="fab fa-css3-alt"></i>
+                                <p class="skill-description">CSS3</p>
+                            </div>
+                            <div class="skill-icons col-4">
+                                <i class="fab fa-sass"></i>
+                                <p class="skill-description">Sass</p>
+                            </div>
                         </div>
-                        <div class="skill-icons col-4">
-                            <i class="fab fa-sass"></i>
-                            <p class="skill-description">Sass</p>
+                        <div class="row mt-3">
+                            <div class="skill-icons col-4">
+                                <i class="fab fa-bootstrap"></i>
+                                <p class="skill-description">Bootstrap</p>
+                            </div>
+                            <div class="skill-icons col-4">
+                                <i class="fab fa-git-alt"></i>
+                                <p class="skill-description">Git & GitHub</p>
+                            </div>
+                            <div class="skill-icons col-4">
+                                <i class="fas fa-mobile-alt"></i>
+                                <p class="skill-description">Responsive Design</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="row text-center mt-3">
-                        <div class="skill-icons col-4">
-                            <i class="fab fa-bootstrap"></i>
-                            <p class="skill-description">Bootstrap</p>
-                        </div>
-                        <div class="skill-icons col-4">
-                            <i class="fab fa-git-alt"></i>
-                            <p class="skill-description">Git & GitHub</p>
-                        </div>
-                        <div class="skill-icons col-4">
-                            <i class="fas fa-mobile-alt"></i>
-                            <p class="skill-description">Responsive Design</p>
-                        </div>
-                    </div>
-                    <!-- Icons end -->
+
                 </div>
-            </section>
+                <!-- Row ends -->
+            </div>
+
 
             <!-- Recent Work -->
             <section class="recent-work pt-4 pb-5 px-3">
@@ -238,6 +245,7 @@
             </section> 
         </main>
 
+
         <!-- Footer -->
         <footer id="contact">
             <div class="container">
@@ -259,6 +267,7 @@
             </div>
         </footer>
 
+        
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
